@@ -1,0 +1,66 @@
+.createEvent body {
+    background: linear-gradient(0deg, #a883ff, #9d73ff), #ae9aff;
+    font-family: Helvetica;
+}
+
+.createEvent h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: left;
+
+    color: #240D57;
+}
+
+form {
+background: white;
+padding: 3em;
+height: 90vh;
+border-radius: 20px;
+border-left: 1px solid white;
+border-top: 1px solid white;
+backdrop-filter: blur(10px);
+box-shadow: 20px 20px 40px -6px rgba(104, 4, 129, 0.2);
+text-align: left;
+position: relative;
+transition: all 0.2s ease-in-out;
+}
+
+label {
+    font-size: 17px;
+    color: #240D57;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid #8456EC;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input:focus {
+    outline: none;
+    background-color: #CCB6FF;
+    border-radius: 10px;
+    color: white;
+  }
+
+input[type='submit'] {
+    margin: 5px;   
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 10px;
+    width: 88px;
+    height: 45px;
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
